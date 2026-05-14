@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Virtual Environment
+env/
+venv/
+ENV/
+
+
+.env
+env/
+db.sqlite3
+__pycache__/
+# Django
+db.sqlite3
+media/
+
+# Static files
+staticfiles/
+
+# Environment Variables
+.env
+
+# VSCode
+.vscode/
+
+# Mac/Linux
+.DS_Store
+
+# Node
+node_modules/
+
+# Netlify
+.netlify/
+
+# Logs
+*.log
