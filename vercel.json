@@ -1,0 +1,14 @@
+{
+    "builds": [
+        {
+            "src": "pusat/wsgi.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "pusat/wsgi.py"
+        }
+    ]
+}
